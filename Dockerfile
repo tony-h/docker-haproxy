@@ -6,7 +6,7 @@ RUN add-apt-repository ppa:vbernat/haproxy-1.5 && apt-get -y update && apt-get i
 
 EXPOSE 80 443
 
-ADD haproxy.sh /root/haproxy
+ADD haproxy.sh /root/haproxy.sh
 ADD haproxy.cfg /root/haproxy.cfg
 
 CMD ["/root/haproxy.sh"]
