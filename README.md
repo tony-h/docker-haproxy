@@ -1,5 +1,5 @@
-mmooc-docker-canvas
-===================
+mmooc-docker-haproxy
+====================
 
 Build scripts for the Matematikk-MOOC HAProxy Docker image.
 
