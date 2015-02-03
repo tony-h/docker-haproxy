@@ -1,5 +1,6 @@
 #! /bin/bash
 
+# Expands environment variables
 eval echo -n \""`sed -e 's/"/\\\\\\\"/g' /root/haproxy.cfg`"\" > /etc/haproxy/haproxy.cfg
 
 if [ "$SSL_CERT" == "" ]; then
