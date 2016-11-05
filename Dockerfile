@@ -1,4 +1,4 @@
-FROM ubuntu:12.04
+FROM ubuntu:14.04
 
 RUN apt-get -y update --fix-missing
 RUN apt-get install -y software-properties-common python-software-properties
